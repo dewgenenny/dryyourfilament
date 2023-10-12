@@ -1,0 +1,273 @@
+
+/* assets/css/styles.css */
+
+/* Primary Color */
+.btn-primary, .navbar-light .navbar-brand, .navbar-light .navbar-nav .active > .nav-link {
+    color: #007BFF;
+}
+
+/* Secondary Color */
+.btn-secondary, .navbar-light .navbar-nav > .nav-link {
+    color: #6C757D;
+}
+
+/* Background Colors */
+body {
+    background-color: #F8F9FA;
+}
+
+.card, .modal-content, .alert, .navbar {
+    background-color: #FFFFFF;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif; /* This is just a placeholder. Consider using a font from Google Fonts or another source. */
+    background-color: #f4f4f4; /* A light gray background to give a bit of contrast */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* A subtle shadow to give depth */
+    margin-top: 20px;
+}
+
+.tool-container {
+    margin-bottom: 20px;
+}
+
+/* Text Colors */
+body {
+    color: #343A40;
+}
+
+.text-muted {
+    color: #868E96;
+}
+
+/* Feedback Colors */
+.text-success {
+    color: #28A745;
+}
+
+.text-danger {
+    color: #DC3545;
+}
+
+.btn-success {
+    background-color: #28A745;
+}
+
+.btn-danger {
+    background-color: #DC3545;
+}
+
+
+.record-group {
+    margin-bottom: 1.5rem;
+}
+
+.record-type {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.record-data {
+    margin-left: 20px;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+.tool-container {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+
+/* General styles for mobile-friendliness */
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+input, select, textarea, button {
+    max-width: 100%;
+}
+
+/* Media Query for small devices like phones */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 20px;
+        font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .support {
+        font-size: 1em;
+    }
+}
+
+/* Media Query for medium-sized devices like tablets */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        padding: 30px;
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .support {
+        font-size: 1.1em;
+    }
+}
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    padding: 40px;
+}
+
+h2 {
+    color: #4a90e2;  /* Dominant color */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select, input[type="text"], input[type="tel"], input[type="email"], input[type="url"], input[type="number"], input[type="datetime-local"], textarea {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+button {
+    background-color: #4a90e2; /* Dominant color */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #357ab7;  /* Darkened dominant color */
+}
+
+#qrcode img {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+#qrcode a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+#qrcode a:hover {
+    background-color: #357ab7;
+}
+
+.support {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.support a {
+    color: #FF813F;  /* "Buy Me a Coffee" brand color */
+    text-decoration: none;
+    border-bottom: 2px dashed #FF813F;
+    transition: 0.3s ease-in-out;
+}
+
+.support a:hover {
+    color: #FFA072;
+    border-bottom-color: #FFA072;
+}
+
+.contribute-section {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.contribute-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contribute-button:hover {
+    background-color: #555;
+}
+
+.mobile-instructions a {
+    color: #FFA500; /* Orange color to highlight the action */
+}
+
+.navbar {
+    background-color: #333;
+}
+
+/* Ensures the navbar stands out */
+.navbar.bg-primary {
+    background-color: #007BFF !important; /* Adjust this color if needed */
+}
