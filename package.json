@@ -1,0 +1,19 @@
+{
+  "name": "tech-tool-box",
+  "version": "1.0.0",
+  "description": "A collection of handy tech tools.",
+  "scripts": {
+    "start": "eleventy --serve",
+    "clean": "rm -Rf dist",
+    "clean-win": "del /f /q dist && rmdir dist",
+    "dev": "npm-run-all clean -p dev:*",
+    "dev:eleventy": "eleventy --serve --quiet",
+    "dev:mix": "mix watch",
+    "build:eleventy": "eleventy",
+    "build:mix": "mix --production",
+    "build": "npm-run-all clean -s build:mix build:eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}

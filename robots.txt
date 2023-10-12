@@ -1,0 +1,4 @@
+Sitemap: https://dryyourfilament.com/sitemap.xml
+
+User-agent: *
+Disallow:
