@@ -12,11 +12,24 @@ tags: ['3dprinting', 'filament', 'tips']
 
 Moisture can be a filament's worst enemy. When the filament absorbs moisture from the air, it can cause a range of issues during the printing process:
 
-1. **Degradation of Material**: Some filaments can break down when exposed to moisture, leading to weaker printed objects.
+1. **Degradation of Material**: Some filaments can break down when exposed to moisture, leading to weaker printed objects and filament snapping.
+    <div style="text-align: center;">
+      <img src="https://i.redd.it/pkcbpsehvzmb1.jpg" alt="Snapped 3d printing filament - source reddit user gugisgenderfluid" style="max-width: 40%;">
+    </div>
 2. **Poor Surface Finish**: Moisture-laden filament can result in a rough or bubbly surface finish.
+    <div style="text-align: center;">
+      <img src="https://preview.redd.it/ybta4zpzo2na1.png?width=786&format=png&auto=webp&s=c297d637b31b8764db60d052228d78323132c47b" alt="3D print with poor surface finish - source reddit user John_Yossarian" style="max-width: 40%;">
+    </div>
 3. **Extrusion Issues**: Water in the filament can turn to steam when heated, leading to popping sounds and inconsistent extrusion.
 4. **Reduced Adhesion**: Wet filament can lead to warping and reduced layer adhesion, which compromises the structural integrity of the print.
-5. **Stringing**: One of the most noticeable problems with wet filament is "stringing." Stringing occurs when small threads of plastic are left behind as the print head moves between points. These thin strings create a web-like structure across the print, marring its appearance and requiring post-processing to clean up.
+    <div style="text-align: center;">
+      <img src="https://i.redd.it/vndmuubow6ga1.jpg" alt="3D print with poor layer adhesion - source reddit user John_Yossarian" style="max-width: 60%;">
+    </div>
+5. **Stringing**: One of the most noticeable problems with wet filament is "stringing." <a href="https://help.prusa3d.com/article/stringing-and-oozing_1805">Stringing</a> occurs when small threads of plastic are left behind as the print head moves between points. These thin strings create a web-like structure across the print, marring its appearance and requiring post-processing to clean up.
+
+<div style="text-align: center;">
+  <img src="https://i.redd.it/jtvvuqqioxvz.jpg" alt="3D print with stringing - source reddit user peterbenz" style="max-width: 60%;">
+</div>
 
 ## Filaments and Their Moisture Sensitivity
 
@@ -31,7 +44,7 @@ Different filaments have varying levels of sensitivity to moisture:
 
 ## How to Dry Your Filament
 
-- **Use a Filament Dryer**: There are dedicated filament dryers available in the market. They circulate hot air around the spool, ensuring even drying.
+- **Use a Filament Dryer**: There are dedicated filament dryers available in the market. They circulate hot air around the spool, ensuring even drying. <a href="https://www.aliexpress.com/item/1005005080962656.html?spm=a2g0o.productlist.main.3.1766BoxhBoxhcy&algo_pvid=6c0fab20-bcb8-43ce-b47f-b4e87b29c44d&algo_exp_id=6c0fab20-bcb8-43ce-b47f-b4e87b29c44d-1&pdp_npi=4%40dis%21EUR%21162.34%2172.77%21%21%211228.94%21%21%40211b444516971298123946960ea1cd%2112000031568460245%21sea%21ES%21718001748%21&curPageLogUid=sRokYJo16Sa1">Example</a>
 - **Oven Drying**: For those without a filament dryer, a regular kitchen oven can be used. However, be very cautious about the temperature settings as you don't want to melt the filament.
 - **Desiccant Packs**: These are often included when you purchase a spool of filament. They help absorb moisture and can be particularly useful for storage.
 - **Vacuum Sealed Storage**: If you're not planning to use the filament immediately, consider vacuum sealing it with a desiccant pack.
