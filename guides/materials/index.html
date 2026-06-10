@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Per-Material Drying Guide | Dry Your Filament</title>
+  <meta name="description" content="Moisture sensitivity, drying temperatures, times, and material-specific tips for PLA, PETG, ABS, ASA, Nylon, TPU, PC, PVA, PEEK, and carbon-fibre composites.">
+  <link rel="canonical" href="https://dryyourfilament.com/guides/materials/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CGZSN9YCML"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CGZSN9YCML');
+  </script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="/">Dry Your Filament</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/guides/detect/">Diagnosing Wet Filament</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link active" href="/guides/materials/">Per-Material Drying Guide</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/guides/methods/">Drying Methods</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link" href="/guides/storage/">Storage &amp; Prevention</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Per-Material Drying Guide</h1>
+<p>Moisture sensitivity varies enormously between filament types. A material's hygroscopicity (ability to absorb water) is determined by its polymer chemistry, and that drives both how urgently it needs drying and what can go wrong when it's printed wet.</p>
+<div class="callout callout-info">
+<span class="callout-title">Always check your manufacturer's datasheet</span>
+The temperatures below are well-supported consensus ranges. Different brands and grades vary — Prusament, Polymaker, eSUN, and others publish specific values for their formulations. When in doubt, use the lower end of the range to protect spool integrity.
+</div>
+<hr>
+<div class="material-header">
+<h2>PLA (Polylactic Acid)</h2>
+<span class="badge-sensitivity badge-low">Low – Moderate</span>
+</div>
+<p>PLA is the most common 3D printing filament and is often described as &quot;not very hygroscopic&quot; — but this understates the problem for anything that needs to be structurally reliable.</p>
+<p><strong>What the research says:</strong> A 2024 peer-reviewed study (PMC11442157) found that moisture exposure caused a <strong>~20 % reduction in tensile strength</strong> and a <strong>~50 % increase in melt flow index</strong> in PLA 4043D. The higher melt flow index means the polymer flows more freely than expected, causing stringing, blobs, and dimensional inaccuracy. After three months at room temperature and ambient humidity, tensile strength dropped <strong>24–36 %</strong> across PLA grades studied.</p>
+<p><strong>When wet, PLA shows:</strong></p>
+<ul>
+<li>Increased stringing — the most common complaint</li>
+<li>Slightly rough or matt surface where it should be smooth</li>
+<li>Brittle filament on the spool (long-term exposure causes hydrolysis — polymer chain scission — which makes the filament snap rather than bend)</li>
+<li>Subtle surface bubbling on slow, thick sections</li>
+</ul>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>45–50 °C</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>4–6 hours</td>
+</tr>
+<tr>
+<td>Max safe temp</td>
+<td>~55 °C (spool integrity risk above this)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-danger">
+<span class="callout-title">PLA and kitchen ovens: a genuine risk</span>
+PLA's glass transition temperature is approximately 60 °C. Kitchen ovens typically cycle their heating element on and off, creating temperature swings of 10–25 °C above the set point. If you set a household oven to 50 °C, it may briefly spike to 65–75 °C — hot enough to soften and deform the filament or warp the spool. Many home ovens can't even be set below 80 °C. Use a dedicated dryer or food dehydrator with a verified temperature for PLA.
+</div>
+<hr>
+<div class="material-header">
+<h2>PETG (Polyethylene Terephthalate Glycol)</h2>
+<span class="badge-sensitivity badge-moderate">Moderate</span>
+</div>
+<p>PETG is more hygroscopic than PLA and the effects are more visually obvious — wet PETG is one of the easier materials to diagnose.</p>
+<p><strong>When wet, PETG shows:</strong></p>
+<ul>
+<li>Heavy stringing — often the first symptom noticed</li>
+<li>Visible bubbles and rough texture on top surfaces</li>
+<li>Poor surface finish on outer walls</li>
+<li>Blobs and zits on the perimeter</li>
+<li>Reduced layer adhesion on bridges and overhangs</li>
+</ul>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>55–65 °C</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>4–6 hours</td>
+</tr>
+</tbody>
+</table>
+<p>PETG re-absorbs moisture relatively quickly if left open after drying. If printing a long job, consider a dry box or printing directly from a dryer.</p>
+<hr>
+<div class="material-header">
+<h2>ABS / ASA</h2>
+<span class="badge-sensitivity badge-moderate">Moderate</span>
+</div>
+<p>ABS and ASA have similar moisture sensitivity. Both are used for engineering parts where strength matters, which makes proper drying more important than it might seem for a &quot;moderate&quot; rating.</p>
+<p><strong>When wet, ABS/ASA shows:</strong></p>
+<ul>
+<li>Rough, irregular surface finish</li>
+<li>Increased warping tendency (moisture affects the thermal behaviour of the melt)</li>
+<li>Poor layer adhesion — parts delaminate under stress</li>
+<li>Faint popping sounds during extrusion</li>
+<li>Subtle colour change in some grades (slightly lighter or greyer)</li>
+</ul>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>70–80 °C</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>4–6 hours</td>
+</tr>
+</tbody>
+</table>
+<p>The higher drying temperature gives more headroom with oven use, but still verify with a separate thermometer if using a household oven.</p>
+<hr>
+<div class="material-header">
+<h2>Nylon (PA6 / PA12 / PA11)</h2>
+<span class="badge-sensitivity badge-veryhigh">Very High</span>
+</div>
+<p>Nylon is the most hygroscopic common FFF filament by a significant margin. Understanding its moisture behaviour is essential for anyone using it for functional parts.</p>
+<p><strong>What the research says:</strong> A 2023 peer-reviewed study (PMC10304609) measured equilibrium moisture content across 13 filament types. Nylon reached <strong>8.127 % by weight</strong> at 97 % RH — compared to ~0.7 % for PLA and ~0.1 % for low-hygroscopic materials. The mechanical impact was proportionate: <strong>83 % reduction in elastic modulus</strong> and <strong>42 % reduction in tensile strength</strong> at saturation — so severe the material was excluded from comparative charts in the study. A nominally strong engineering material becomes dramatically weaker when wet.</p>
+<p><strong>When wet, Nylon shows:</strong></p>
+<ul>
+<li>Loud, frequent popping and crackling — usually unmistakable</li>
+<li>Extremely rough, foamy surface texture</li>
+<li>Severe stringing</li>
+<li>Near-complete failure on bridges and overhangs</li>
+<li>Parts that are obviously weaker — you can often feel this when handling them</li>
+</ul>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>~90 °C</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>4–6 hours (up to 8 h for PA6)</td>
+</tr>
+<tr>
+<td>PA11 CF (Prusament)</td>
+<td>90 °C / 6 h</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-warning">
+<span class="callout-title">The over-drying paradox: Nylon needs a small amount of moisture</span>
+Water acts as a plasticiser in polyamide polymers — it reduces stiffness while increasing toughness and impact resistance. Fully desiccated Nylon becomes brittle and is more difficult to print. 3DXTech (an engineering-grade filament manufacturer) states explicitly: "nylon actually likes a little bit of moisture in it or it will be brittle and more difficult to process."
+<br><br>
+<strong>Practical guidance:</strong> dry until the popping stops and the surface is smooth, then use promptly or store with a small amount of desiccant (not in a hard vacuum). Avoid desiccating Nylon to zero humidity for extended periods.
+</div>
+<p><strong>PA grade differences:</strong></p>
+<ul>
+<li><strong>PA12</strong> is less hygroscopic than PA6 and is often preferred for FFF printing</li>
+<li><strong>PA6</strong> absorbs moisture fastest and needs the longest drying times</li>
+<li><strong>PA11</strong> (bio-based) behaves similarly to PA12</li>
+</ul>
+<hr>
+<div class="material-header">
+<h2>TPU / TPE (Flexible Filaments)</h2>
+<span class="badge-sensitivity badge-moderate">Moderate</span>
+</div>
+<p>Flexible filaments absorb moderate amounts of moisture, and their softness at elevated temperatures means you must use a lower drying temperature than you might expect.</p>
+<p><strong>When wet, TPU shows:</strong></p>
+<ul>
+<li>Foaming and rough surface texture</li>
+<li>Increased stringing and ooze</li>
+<li>Reduced elasticity and bounce in finished parts</li>
+<li>Bubbles visible on the surface</li>
+</ul>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>40–55 °C</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>5–12 hours</td>
+</tr>
+</tbody>
+</table>
+<p>The low temperature ceiling is set by the material's low softening point. Higher temperatures risk permanent deformation of the spool or even the filament strands fusing together. If using a food dehydrator, verify the actual temperature rather than trusting the dial.</p>
+<hr>
+<div class="material-header">
+<h2>Polycarbonate (PC)</h2>
+<span class="badge-sensitivity badge-high">High</span>
+</div>
+<p>Polycarbonate is an engineering material chosen specifically for its high-impact strength and optical clarity. Moisture undermines both properties.</p>
+<p><strong>When wet, PC shows:</strong></p>
+<ul>
+<li>Visible bubbles and clouding in transparent grades</li>
+<li><strong>Crazing</strong> — fine surface cracking that appears during or after printing</li>
+<li>Poor layer adhesion and brittle parts despite PC's normally high toughness</li>
+<li>Significant stringing</li>
+</ul>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>80–85 °C</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>4–6 hours</td>
+</tr>
+<tr>
+<td>PC Blend (Prusament)</td>
+<td>85 °C / 5 h</td>
+</tr>
+</tbody>
+</table>
+<p>Pure PC is rarely printed on hobby machines; most consumer &quot;PC&quot; filaments are blends (PC+ABS, PC+PBT, etc.) with slightly lower drying temperatures than pure PC. Check the manufacturer's datasheet.</p>
+<hr>
+<div class="material-header">
+<h2>PVA / BVOH (Soluble Support Filaments)</h2>
+<span class="badge-sensitivity badge-veryhigh">Very High</span>
+</div>
+<p>PVA and its newer counterpart BVOH are soluble support materials — and because they dissolve in water, they absorb it voraciously. These are among the most demanding materials to handle correctly.</p>
+<p><strong>Dry before every single print.</strong> Even a few hours of open-air exposure in a moderately humid room can render PVA unprintable.</p>
+<p><strong>When wet, PVA shows:</strong></p>
+<ul>
+<li>Jams — moisture causes PVA to swell and soften in the Bowden tube or extruder</li>
+<li>Brown discolouration and a burnt smell</li>
+<li>Failed support dissolution (paradoxically — wet PVA that jams partway through leaves over-extruded, degraded supports that dissolve poorly)</li>
+<li>Very obvious popping and crackling</li>
+</ul>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature</td>
+<td>50–60 °C</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>6–12 hours</td>
+</tr>
+</tbody>
+</table>
+<p>After drying, store with desiccant and ideally print from a dry box. PVA stored open on a spool will re-absorb meaningful moisture within hours in typical indoor conditions. Many users dedicate a separate sealed container or in-dryer system just for PVA.</p>
+<hr>
+<div class="material-header">
+<h2>PEEK / PEKK / PEI (High-Performance Polymers)</h2>
+<span class="badge-sensitivity badge-high">High</span>
+</div>
+<p>High-performance thermoplastics like PEEK, PEKK, and PEI (Ultem) require temperatures well above what consumer filament dryers can reach. They are also expensive enough that proper drying pays for itself quickly.</p>
+<p><strong>Drying parameters (indicative — always check manufacturer datasheet):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Temperature</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PEEK</td>
+<td>120–150 °C</td>
+<td>3–6 h</td>
+</tr>
+<tr>
+<td>PEKK</td>
+<td>120–150 °C</td>
+<td>3–6 h</td>
+</tr>
+<tr>
+<td>PEI / Ultem</td>
+<td>120–150 °C</td>
+<td>4–6 h</td>
+</tr>
+</tbody>
+</table>
+<p>These temperatures are beyond the capability of most consumer filament dryers. Options include industrial drying ovens, laboratory ovens, or the highest-end dedicated filament dryers with verified high-temperature accuracy. If your equipment cannot reliably hold 120 °C, consult the material manufacturer for lower-temperature extended-time protocols.</p>
+<hr>
+<div class="material-header">
+<h2>Carbon-Fibre & Fibre-Reinforced Composites</h2>
+<span class="badge-sensitivity badge-high">Inherits base polymer</span>
+</div>
+<p>CF, glass-fibre, Kevlar, and other reinforced filaments take their moisture sensitivity from the base polymer. PA-CF, PETG-CF, and PLA-CF absorb moisture primarily through the polymer matrix — the fibre fill does not meaningfully change the absorption kinetics.</p>
+<p><strong>Why drying matters more for composites:</strong> A 2023 study on continuous carbon-fibre-reinforced PA found that drying the filament before printing increased tensile strength by approximately <strong>15 %</strong> and flexural strength by <strong>11.5 %</strong>. The effect is larger than for unfilled PA because moisture-induced voids in the matrix reduce fibre-to-matrix load transfer.</p>
+<p><strong>Drying parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Temperature</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PA11-CF / PA12-CF</td>
+<td>90 °C</td>
+<td>6 h</td>
+</tr>
+<tr>
+<td>PETG-CF</td>
+<td>55–65 °C</td>
+<td>4–6 h</td>
+</tr>
+<tr>
+<td>PLA-CF</td>
+<td>45–50 °C</td>
+<td>4–6 h</td>
+</tr>
+</tbody>
+</table>
+<p>Also note: many CF composites are abrasive and sold sealed with desiccant at high cost. Opening the bag and leaving the spool on the printer overnight before a multi-hour job is a straightforward way to waste the material investment.</p>
+
+</div>
+
+<footer>
+  <p class="support">Found this useful? <a href="https://www.buymeacoffee.com/dewgenenny" target="_blank" rel="noopener">Buy me a coffee ☕</a> to support the site.</p>
+  <p>© 2025 <a href="/">Dry Your Filament</a> · <a href="https://github.com/dewgenenny/dryyourfilament" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>

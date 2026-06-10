@@ -2,18 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://dryyourfilament.com/404.html</loc>
-            <lastmod>2025-10-16T18:52:51.572Z</lastmod>
+            <loc>https://dryyourfilament.com/guides/detect/</loc>
+            <lastmod>2020-01-01T00:00:00.000Z</lastmod>
         </url>
     
         <url>
-            <loc>https://dryyourfilament.com/README/</loc>
-            <lastmod>2025-10-16T18:52:51.572Z</lastmod>
+            <loc>https://dryyourfilament.com/guides/materials/</loc>
+            <lastmod>2020-01-02T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://dryyourfilament.com/guides/methods/</loc>
+            <lastmod>2020-01-03T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://dryyourfilament.com/guides/storage/</loc>
+            <lastmod>2020-01-04T00:00:00.000Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://dryyourfilament.com/404.html</loc>
+            <lastmod>2026-06-10T14:18:16.169Z</lastmod>
         </url>
     
         <url>
             <loc>https://dryyourfilament.com/</loc>
-            <lastmod>2025-10-16T18:52:51.575Z</lastmod>
+            <lastmod>2026-06-10T14:18:16.172Z</lastmod>
         </url>
     
 </urlset>
